@@ -21,7 +21,7 @@ namespace NBitcoin.Altcoins
 			ElementsParams<LiquidRegtest>.BlockHeightInHeader = true;
 
 		}
-		public override string CryptoCode => "LBTC";
+		public override string CryptoCode => "ULBTC";
 		public static Liquid Instance { get; } = new Liquid();
 
 		protected override NetworkBuilder CreateMainnet()
